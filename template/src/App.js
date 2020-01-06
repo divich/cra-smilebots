@@ -1,26 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Coverflow from "reactjs-new-coverflow";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World!
-          Trial 3 with new template creator in v3.3.0 of create-react-app
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Coverflow
+        //   onIndexChange={index => this.setState({ index })}
+        offset={0.3}
+        size={250}
+        //   indexDirection={this.state.indexDirection}
+      >
+        <div>hello</div>
+        <div>hello1</div>
+        <div>hello2</div>
+      </Coverflow>
     </div>
   );
 }
