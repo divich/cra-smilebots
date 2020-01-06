@@ -10,4 +10,4 @@ https://dev.to/pallymore/make-your-own-create-react-app-templates-feo
 
 To create a starter app using this template type
 
-```npx create-react-app PROJECT_NAME --template smilebots```
+```npx create-react-app PROJECT_NAME --template divich```
